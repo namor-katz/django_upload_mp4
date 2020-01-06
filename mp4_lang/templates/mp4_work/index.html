@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type"
+		      content="text/html; charset=utf-8">
+		<title>Ролики</title>
+	</head>
+	<body>
+		<h1>Ролики</h1>
+		{% for mp in mp4 %}
+		<div>
+			<h2>{{mp.file_name}}<h2>
+			<p>{{mp.file_path}}</p>
+		</div>
+		{% endfor %}
+	</body>
+</html>
