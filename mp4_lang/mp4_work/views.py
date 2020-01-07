@@ -23,6 +23,3 @@ class Mp4CreateView(CreateView):
      #   context = super().get_context_data(**kwargs)
      #   context['rubrics']
 
-
-class deleteMovie():
-    pass

@@ -121,3 +121,4 @@ USE_TZ = True
 STATIC_URL = '/static/'
 #MEDIA_URL = os.path.join(BASE_DIR,  'media')
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/') # блядь уебаны. почему нельзя об этом явно написать? 
+MEDIA_URL = '/media/'
