@@ -12,3 +12,6 @@ tmp/
 __pycache__/
 *.DS_Store
 *.sqlite3
+*.mp4
+*.pdf
+*.djvu

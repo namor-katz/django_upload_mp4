@@ -9,8 +9,8 @@
 		<h1>Ролики</h1>
 		{% for mp in mp4 %}
 		<div>
-			<h2>{{mp.file_name}}<h2>
-			<p>{{mp.file_path}}</p>
+			<h2>Файл с именем: {{mp.file_path}}<h2>
+			<p>а содержит он:  {{mp.desc}}</p>
 		</div>
 		{% endfor %}
 	</body>
