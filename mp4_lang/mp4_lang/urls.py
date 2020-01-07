@@ -15,9 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from mp4_work.views import index
+from mp4_work.views import index,  Mp4CreateView
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('mp4/',  index),  # далее сделать главной
+    path('add/', Mp4CreateView.as_view (),  name='add')
 ]
